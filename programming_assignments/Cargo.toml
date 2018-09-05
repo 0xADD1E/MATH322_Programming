@@ -1,0 +1,14 @@
+[package]
+name = "programming_assignments"
+version = "0.1.0"
+authors = ["Addie Morrison <0xADD1E@gmail.com>"]
+
+[dependencies]
+#The just-barely-not-std stuff
+failure = "0.1.2"
+regex = "1.0.4"
+env_logger = "0.5.13"
+log = "0.4.5"
+
+#The actual crates
+#dot = "0.1.4"
