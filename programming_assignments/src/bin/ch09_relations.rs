@@ -6,7 +6,7 @@ extern crate programming_assignments;
 extern crate regex;
 
 fn main(){
-    run_main.unwrap();
+    run_main().unwrap();
 }
 fn run_main() -> Result<(), failure::Error> {
     env_logger::init();
